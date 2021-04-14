@@ -15,3 +15,5 @@ Suggests:
 VignetteBuilder: knitr
 Imports: 
     shiny
+URL: https://github.com/qdread/testShinyVignette
+BugReports: https://github.com/qdread/testShinyVignette/issues
