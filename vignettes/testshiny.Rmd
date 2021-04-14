@@ -17,3 +17,20 @@ knitr::opts_chunk$set(
 ```{r setup}
 library(testShinyVignette)
 ```
+
+# What's this?
+
+This is a test of embedding a Shiny app in a vignette and building a pkgdown site with it. If this works, you should see the Old Faithful app below.
+
+```{r}
+shiny::shinyAppDir(
+  system.file("examples/example-app", package="testShinyVignette")
+)
+```
+
+# Diagnostics
+
+```{r}
+sessionInfo()
+```
+
