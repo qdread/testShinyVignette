@@ -1,6 +1,7 @@
 ---
 title: "test embedded Shiny app"
 output: rmarkdown::html_vignette
+runtime: shiny
 vignette: >
   %\VignetteIndexEntry{test embedded Shiny app}
   %\VignetteEngine{knitr::rmarkdown}
