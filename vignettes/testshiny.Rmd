@@ -29,6 +29,15 @@ shiny::shinyAppDir(
 )
 ```
 
+# Embedded Shiny app on web
+
+Below, I've embedded one of the example Shiny apps that I've hosted on shinyapps.io. If this works, you should see the vaccination app below.
+
+```{r}
+knitr::include_app('https://qdread.shinyapps.io/ex-shiny-long-data', height = '400px')
+```
+
+
 # Diagnostics
 
 ```{r}
