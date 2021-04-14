@@ -89,24 +89,23 @@
 
     
     
-<div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="section-cb1"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="http://quentinread.com/testShinyVignette">testShinyVignette</a></span><span class="op">)</span></code></pre></div>
-<div id="whats-this" class="section level1">
+<div id="section-whats-this" class="section level1">
 <h1 class="hasAnchor">
-<a href="#whats-this" class="anchor"></a>What’s this?</h1>
+<a href="#section-whats-this" class="anchor"></a>What’s this?</h1>
 <p>This is a test of embedding a Shiny app in a vignette and building a pkgdown site with it. If this works, you should see the Old Faithful app below.</p>
-<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="section-cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu">shiny</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/shiny/man/shinyApp.html">shinyAppDir</a></span><span class="op">(</span>
   <span class="fu"><a href="https://rdrr.io/r/base/system.file.html">system.file</a></span><span class="op">(</span><span class="st">"examples/example-app"</span>, package<span class="op">=</span><span class="st">"testShinyVignette"</span><span class="op">)</span>
 <span class="op">)</span>
 <span class="co">#&gt; Loading required package: shiny</span></code></pre></div>
-<p></p>
-<div style="width: 100% ; height: 400px ; text-align: center; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;" class="muted well">Shiny applications not supported in static R Markdown documents</div>
+<p><iframe data-deferred-src="app3e8783d0eb4d1088c380e93281cdbef9/?w=&amp;__subapp__=1" width="100%" height="400" class="shiny-frame shiny-frame-deferred"></iframe></p>
 </div>
-<div id="diagnostics" class="section level1">
+<div id="section-diagnostics" class="section level1">
 <h1 class="hasAnchor">
-<a href="#diagnostics" class="anchor"></a>Diagnostics</h1>
-<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
+<a href="#section-diagnostics" class="anchor"></a>Diagnostics</h1>
+<div class="sourceCode" id="section-cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/utils/sessionInfo.html">sessionInfo</a></span><span class="op">(</span><span class="op">)</span>
 <span class="co">#&gt; R version 4.0.5 (2021-03-31)</span>
 <span class="co">#&gt; Platform: x86_64-apple-darwin17.0 (64-bit)</span>
@@ -129,10 +128,10 @@
 <span class="co">#&gt;  [1] Rcpp_1.0.6        knitr_1.31        magrittr_2.0.1    xtable_1.8-4     </span>
 <span class="co">#&gt;  [5] R6_2.5.0          ragg_1.1.2        rlang_0.4.10      fastmap_1.1.0    </span>
 <span class="co">#&gt;  [9] stringr_1.4.0     tools_4.0.5       xfun_0.22         withr_2.4.1      </span>
-<span class="co">#&gt; [13] jquerylib_0.1.3   ellipsis_0.3.1    htmltools_0.5.1.1 systemfonts_1.0.1</span>
+<span class="co">#&gt; [13] jquerylib_0.1.3   systemfonts_1.0.1 ellipsis_0.3.1    htmltools_0.5.1.1</span>
 <span class="co">#&gt; [17] yaml_2.2.1        digest_0.6.27     rprojroot_2.0.2   lifecycle_1.0.0  </span>
 <span class="co">#&gt; [21] pkgdown_1.6.1     crayon_1.4.1      textshaping_0.3.3 later_1.1.0.1    </span>
-<span class="co">#&gt; [25] promises_1.2.0.1  sass_0.3.1        fs_1.5.0          mime_0.10        </span>
+<span class="co">#&gt; [25] sass_0.3.1        fs_1.5.0          promises_1.2.0.1  mime_0.10        </span>
 <span class="co">#&gt; [29] memoise_2.0.0     cachem_1.0.4      evaluate_0.14     rmarkdown_2.7    </span>
 <span class="co">#&gt; [33] stringi_1.5.3     compiler_4.0.5    bslib_0.2.4       desc_1.3.0       </span>
 <span class="co">#&gt; [37] jsonlite_1.7.2    httpuv_1.5.5</span></code></pre></div>

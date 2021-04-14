@@ -3,7 +3,7 @@ pkgdown: 1.6.1
 pkgdown_sha: ~
 articles:
   testshiny: testshiny.html
-last_built: 2021-04-14T04:44Z
+last_built: 2021-04-14T05:17Z
 urls:
   reference: http://quentinread.com/testShinyVignette/reference
   article: http://quentinread.com/testShinyVignette/articles
